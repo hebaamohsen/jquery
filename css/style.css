@@ -23,9 +23,13 @@
     position: absolute;
     top: 0;
     display: none;
+    position: fixed;
 }
 .menu-item li{
     cursor: pointer;
+}
+.menu-item li:hover{
+    color: #5B1512;
 }
 .close{
     position: absolute;
@@ -96,7 +100,7 @@
     color: white;
     margin-top: 100px;
 }
-#contact-us{
+#contact{
     margin-top: 100px;
 }
 .social-icon{

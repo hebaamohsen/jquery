@@ -69,4 +69,13 @@ $(document).ready(function(){
             $(".num").text("your available character finished ");
         }
     })
+
+
+    $("a[href^='#']").click(function(e){
+        let href = e.target.getAttribute('href');
+        let sectionOffset = $(href).offset().top;
+        $("html,body").animate({screenTop:sectionOffset},2000)
+    })
 })
+
+
