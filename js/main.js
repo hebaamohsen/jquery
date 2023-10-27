@@ -8,25 +8,11 @@ $(document).ready(function(){
         $("#menu").css({left:"20px"});
     })
     
-    $(".inner-singer-1").hide();
-    $(".inner-singer-2").hide();
-    $(".inner-singer-3").hide();
-    $(".inner-singer-4").hide();
-    
-    $(".singer-1").click(function(){
-        $(".inner-singer-1").slideToggle(1000);
-    })
-    $(".singer-2").click(function(){
-        $(".inner-singer-2").slideToggle(1000);
-        $(".inner-singer-1").slideUp(1000);
-    })
-    $(".singer-3").click(function(){
-        $(".inner-singer-3").slideToggle(1000);
-        $(".inner-singer-2").slideUp(1000);
-    })
-    $(".singer-4").click(function(){
-        $(".inner-singer-4").slideToggle(1000);
-        $(".inner-singer-3").slideUp(1000);
+
+    $("#duration h3").click(function(){
+        $(this).next().slideToggle();
+
+        $("#duration div").not($(this).next()).slideUp();
     })
     
     

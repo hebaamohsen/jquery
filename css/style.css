@@ -69,18 +69,22 @@
 .inner-singer-1{
     background-color:#ccc ;
     padding-top: 10px;
+    display: none;
 }
 .inner-singer-2{
     background-color:#ccc ;
     padding-top: 10px;
+    display: none;
 }
 .inner-singer-3{
     background-color:#ccc ;
     padding-top: 10px;
+    display: none;
 }
 .inner-singer-4{
     background-color:#ccc ;
     padding-top: 10px;
+    display: none;
 }
 #details{
     background-image: url("../images/invitation-2508607__340.jpg");
